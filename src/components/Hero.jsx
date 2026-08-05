@@ -115,7 +115,7 @@ const Hero = () => {
             <FaGithub className="text-xl" />
           </a>
           <a
-            href="https://www.linkedin.com/in/osama-ahmed-250648245?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BF%2FV6E6JtQMeTmVtsXb2pKA%3D%3D"
+            href="https://www.linkedin.com/in/osamaahmedd/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 bg-zinc-900/80 border border-zinc-800 rounded-full hover:text-blue-400 hover:border-zinc-600 hover:scale-110 transition-all"
@@ -124,7 +124,7 @@ const Hero = () => {
             <FaLinkedin className="text-xl" />
           </a>
           <a
-            href="https://www.facebook.com/profile.php?id=100006681611874"
+            href="https://www.facebook.com/osama.ahmed.787630"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 bg-zinc-900/80 border border-zinc-800 rounded-full hover:text-blue-500 hover:border-zinc-600 hover:scale-110 transition-all"
