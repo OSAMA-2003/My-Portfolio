@@ -26,15 +26,26 @@ import img23 from "../assets/23.png";
 import img24 from "../assets/24.jpg";
 import vid25 from "../assets/spidervenom.webm";
 import img25 from "../assets/25.png";
+import img26 from "../assets/26.jpg";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Sara Portfolio",
+      description: "Modern personal portfolio website for a graphic designer, showcasing her creative work, services, and visual identity through an interactive and responsive experience.",
+      image: img26,
+      technologies: ["Next", "Tailwind", "Framer"],
+      github: "https://sara-designer.vercel.app",
+      live: "https://sara-designer.vercel.app",
+      underProcessing: false,
+      isNew: true,
+    },
     {
       title: "Kyandr",
       description:
         "Kyandr is a full-stack eCommerce platform for customizable products and mockup designs. It includes a modern customer-facing store, secure authentication, and a powerful admin dashboard.",
       image: img25,
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
+      technologies: ["React", "Node.js", "MongoDB"],
       github: "https://kyandr.vercel.app",
       live: "https://kyandr.vercel.app",
       underProcessing: false,
@@ -45,7 +56,7 @@ const Projects = () => {
       description:
         "HD GROUP For Export is an international trading company specializing in the export and import of food products, fresh fruits and vegetables, and medical supplies.",
       image: img24,
-      technologies: ["Next.js", "Tailwind CSS", "Google Workspace"],
+      technologies: ["Next.js", "Tailwind CSS", "Google"],
       github: "https://www.hdgroupforexport.com/",
       live: "https://www.hdgroupforexport.com/",
       underProcessing: false,
@@ -81,7 +92,7 @@ const Projects = () => {
       description:
         "Full-stack online bookstore specializing in high school textbooks, integrated with Egyptian online payment solutions.",
       image: img20,
-      technologies: ["Next.js", "Tailwind", "Drizzle", "Paymob"],
+      technologies: ["Next.js", "PostgreSQL", "Paymob"],
       github: "https://github.com/",
       live: "https://kayzen-store.com/",
       underProcessing: false,
@@ -173,7 +184,7 @@ const Projects = () => {
       github: "https://github.com/OSAMA-2003/blog-website",
       live: "https://blog-plusss.vercel.app/",
       underProcessing: false,
-      isNew: true,
+      isNew: false,
     },
     {
       title: "Al-Ahly SC",
@@ -388,17 +399,7 @@ const Projects = () => {
                   </a>
 
                   <div className="flex items-center gap-3">
-                    {project.github && (
-                      <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-zinc-400 hover:text-white transition-colors"
-                        title="View Code on GitHub"
-                      >
-                        <FaGithub className="text-lg" />
-                      </a>
-                    )}
+
                     <a
                       href={project.live}
                       target="_blank"
